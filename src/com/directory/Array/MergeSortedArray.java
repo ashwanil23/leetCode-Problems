@@ -45,7 +45,7 @@ public class MergeSortedArray {
         int i = m - 1;
         int j = n - 1;
         int k = m + n - 1;
-
+//Merge without sorting in ascending or descending order it can give any result but merge success fully
         while (i >= 0 && j >= 0) {
             if (nums1[i] > nums2[j]) {
                 nums1[k] = nums1[i];
